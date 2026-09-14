@@ -22,12 +22,12 @@ export default function Banner() {
               href="#technologies" 
               className="w-full sm:w-auto text-center brand-gradient text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-orange-200 transition-all transform hover:-translate-y-0.5"
             >
-              Explore Tech Stack
+              Explore Technologies
             </a>
             <button 
               className="w-full sm:w-auto text-center border border-gray-300 text-gray-700 font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition-colors"
             >
-              Architecture Guide
+              Learn More
             </button>
           </div>
         </div>
