@@ -12,9 +12,6 @@ export default function Sidebar({ stack, onRemove, onRemoveAll }) {
       {/* Empty State */}
       {stack.length === 0 ? (
         <div className="text-center py-12 px-4">
-          <div className="w-16 h-16 rounded-full bg-gray-50 flex items-center justify-center mx-auto mb-3 text-2xl">
-            🧰
-          </div>
           <h4 className="text-sm font-semibold text-gray-700 mb-1">Your Stack is Empty</h4>
           <p className="text-xs text-gray-500">
             Select technologies from the grid to add them to your stack builder.
