@@ -98,5 +98,25 @@
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Popular"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "category": "Backend",
+    "description": "Query language for APIs and runtime for fulfilling queries with existing data.",
+    "icon": "https://icon.icepanel.io/Technology/svg/GraphQL.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Modern API"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Database",
+    "description": "In-memory data structure store used as a distributed cache and message broker.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Redis.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast Cache"
   }
 ]
