@@ -1,16 +1,41 @@
-# React + Vite
+# 🧱 Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive web application designed for web developers and engineering teams to discover, evaluate, and curate their project tech stacks efficiently. Built for Programming Hero Assignment 5.
 
-Currently, two official plugins are available:
+## 📝 Project Overview
+**Dev Stack Builder** provides an interactive interface to explore modern software technologies across multiple domain categories including Frontend, Backend, Database, Styling, DevOps, Languages, and Tools. Users can select technologies, inspect key metrics, and dynamically curate a custom technology stack with real-time feedback and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies & Tools Used
+* **React.js** (Vite build tool)
+* **Tailwind CSS** (Utility-first styling)
+* **React-Toastify** (NPM package for notification alerts)
+* **JSON** (Asynchronous data fetching)
 
-## React Compiler
+## ✨ Key Features
+1. **Dynamic JSON Data Loading:** Asynchronously fetches technology items from a local JSON dataset using React's `useEffect` hook, complete with a fallback loading state spinner.
+2. **Interactive Stack Management:** Users can add tools to a dynamic side panel stack. Duplicate entries are prevented with conditional checks, and added items can be cleared individually or in bulk.
+3. **Toast Alerts & Unified Brand Theme:** Implements `react-toastify` for state action alerts (add, remove, duplicate attempts) and uses a single centralized CSS gradient utility class for consistent brand styling across all primary UI components.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## FAQ❓ React Concepts & Conceptual Answers
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 1. What is JSX, and why is it used in React?
+answer 
+### 2. What is the difference between props and state?
+answer
+
+### 3. What does the useState hook do, and where did you use it in this project?
+anser 
+
+### 4. What does the useEffect hook do, and why did you need it to load the JSON data?
+answer
+
+### 5. Why does every item in a .map() list need a unique key prop?
+anser
+
+### 6. What is conditional rendering? Show one place you used it.
+answer
+
+### 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+anser 
